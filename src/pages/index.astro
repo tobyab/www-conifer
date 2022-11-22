@@ -1,0 +1,49 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Welcome to Astro.">
+	<main>
+		<h1>🪴 Conifer</h1>
+		<p>The (almost) perfect personal website template!</p>
+		<div class="example">
+		    <img
+		        src="/pages/index.png"
+		    />
+		    <p>Index page</p>
+		    <img
+		        src="/pages/about.png"
+            />
+            <p>About page</p>
+            <img
+                src="/pages/projects.png"
+            />
+            <p>Projects page</p>
+		</div>
+	</main>
+</Layout>
+
+<style>
+	main {
+		margin: auto;
+		margin-top: 8rem;
+		max-width: 120ch;
+		padding-right: 1rem;
+		padding-left: 1rem;
+	}
+	h1 {
+		font-size: 2.25rem;
+		font-weight: 500;
+		margin: 0;
+	}
+	.example {
+	    margin-top: 2rem;
+	}
+	.example img {
+	    border-radius: 0.5rem;
+	    width: 100%;
+    }
+    .example p {
+    	color: #666;
+    }
+</style>
