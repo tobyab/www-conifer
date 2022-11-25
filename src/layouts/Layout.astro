@@ -11,6 +11,15 @@ export interface Props {
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
+		<meta name="description" content="The (almost) perfect personal website template!"/>
+        <meta property="og:url" content="https://conifer.tobyb.dev"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:site_name" content="Conifer"/>
+
+        <meta name="twitter:title" content="Conifer"/>
+        <meta name="twitter:description" content="The (almost) perfect personal website template!"/>
+        <meta name="twitter:site" content="@developedbytoby"/>
+        <meta name="twitter:creator" content="@developedbytoby"/>
 		<title>Conifer</title>
 	</head>
 	<body>
@@ -18,12 +27,15 @@ export interface Props {
 	</body>
 </html>
 <style is:global>
-
 	html {
 		font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
             Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif
 	}
 	a {
 	    color: inherit
+    }
+    img {
+        border-radius: 0.5rem;
+        width: 100%;
     }
 </style>

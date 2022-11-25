@@ -4,26 +4,29 @@ import Layout from '../layouts/Layout.astro';
 
 <Layout title="Welcome to Astro.">
 	<main>
-		<h1>🪴 Conifer</h1>
-		<p>The (almost) perfect personal website template!</p>
-		<a href="https://github.com/developedbytoby/conifer" target="_blank" rel="noopener norefferer">Check it out!</a>
-		<div class="example">
-		    <img
-		        src="/pages/index.png"
-		    />
-            <p>Index page</p>
-            <img
-                src="/pages/about.png"
-            />
-            <p>About page</p>
-            <img
-                src="/pages/projects.png"
-            />
-            <p>Projects page</p>
-		</div>
-		<p>🪴 Run into any problems? <a href="https://github.com/developedbytoby/conifer/issues/new" target="_blank" rel="noopener norefferer">Open an issue<a/>!</p>
-	</main>
-</Layout>
+    		<h1>🪴 Conifer</h1>
+    		<p>The (almost) perfect personal website template!</p>
+    		<a href="/getting-started" target="_blank" rel="noopener norefferer">Get started</a>
+    		<div class="example">
+    		    <img
+    		        src="/pages/index.png"
+    		        alt="An example of the index page"
+    		    />
+                <p>Index page</p>
+                <img
+                    src="/pages/about.png"
+                    alt="An example of the about page"
+                />
+                <p>About page</p>
+                <img
+                    src="/pages/projects.png"
+                    alt="An example of the projects page"
+                />
+                <p>Projects page</p>
+    		</div>
+    		<p>🪴 Run into any problems? <a href="https://github.com/developedbytoby/conifer/issues/new" target="_blank" rel="noopener norefferer">Open an issue<a/>!</p>
+    	</main>
+    </Layout>
 
 <style>
 	main {
@@ -40,11 +43,8 @@ import Layout from '../layouts/Layout.astro';
 	}
 	.example {
 	    margin-top: 4rem;
+	    margin-bottom: 2rem;
 	}
-	.example img {
-	    border-radius: 0.5rem;
-	    width: 100%;
-    }
     .example p {
     	color: #666;
     }
